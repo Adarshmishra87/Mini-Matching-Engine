@@ -1,12 +1,6 @@
 🧮 Mini Matching Engine
 A lightweight, Python-based order matching engine designed to simulate basic trading operations in financial markets. Supports limit orders, market orders, and simple order book logic.
 
-
-mini-matching-engine/
-├── engine.py        # Core matching engine logic
-├── order.py         # Order class (buy/sell, quantity, price, etc.)
-├── order_book.py    # Order book data structure
-
 🧱 Order Format
 Each order contains:
 
@@ -26,7 +20,7 @@ timestamp: used internally to ensure price-time priority
 
 ### Run the Engine
 
-1. Clone the repository:
+ Clone the repository:
 
    ```bash
    github.com/Adarshmishra87/matching-Engine.git
