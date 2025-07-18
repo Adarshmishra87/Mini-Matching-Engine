@@ -1,28 +1,20 @@
-🧮 Mini Matching Engine
-A lightweight, Python-based order matching engine designed to simulate basic trading operations in financial markets. Supports limit orders, market orders, and simple order book logic.
+# ⚙️ Mini Matching Engine
 
-🧱 Order Format
-Each order contains:
+A simple matching engine built in Python to simulate real-world trade order matching logic. This was developed as part of a company challenge within a strict 7-day deadline.
 
-side: 'buy' or 'sell'
+## 🚀 Features
 
-quantity: int
+- Buy/Sell Order Matching
+- Price-Time Priority (Reg NMS Style)
+- Order Book Management
+- Trade Execution Logs (In-Memory)
+- CLI Interface for Testing
 
-price: float (optional for market orders)
+## 🧠 What I Learned
 
-timestamp: used internally to ensure price-time priority
+- Order matching logic used in stock/crypto exchanges
+- Object-oriented programming for system design
+- Fast prototyping under real-world time constraints
+- Using AI tools like ChatGPT to debug, learn, and deliver under pressure
 
-## Getting Started
-
-### Requirements
-
-- Python 3.7 or higher
-
-### Run the Engine
-
- Clone the repository:
-
-   ```bash
-   github.com/Adarshmishra87/matching-Engine.git
-   cd matching Engine
-   run main.py
+## 📁 Project Structure
