@@ -18,3 +18,24 @@ A simple matching engine built in Python to simulate real-world trade order matc
 - Using AI tools like ChatGPT to debug, learn, and deliver under pressure
 
 ## 📁 Project Structure
+Client
+  ↓
+REST API (FastAPI)
+  ↓
+Order Book
+  ↓
+Matching Engine
+  ↓
+Trade Execution
+  ↓
+WebSocket Broadcast
+
+## 💁🏻‍♂️ Supported Order Types
+
+Market Orders
+
+Limit Orders
+
+IOC (Immediate or Cancel)
+
+FOK (Fill or Kill)
