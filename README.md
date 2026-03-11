@@ -1,4 +1,4 @@
-# ⚙️ Mini Matching Engine
+# ⚙️ Real-Time Trading Mini Matching Engine
 
 A simple matching engine built in Python to simulate real-world trade order matching logic. This was developed as part of a company challenge within a strict 7-day deadline.
 
